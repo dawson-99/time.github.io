@@ -1,0 +1,49 @@
+body
+{
+    left: 0px;
+    top: 0px;
+    width: 100%;/*1440px;*/
+    height: 100%;/*1024px;*/
+    background-image: url("../img/bk2.jpg");
+    background-size: cover;
+}
+.searchResult
+{
+    position: absolute;
+    left: 510px;
+    top: 381px;
+    width: 494px;
+    height: 70px;
+    border-radius: 20px 20px 20px 20px;
+    color: black;
+    font-size: 36px;
+    text-align: left;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.return_searchResult
+{
+    position: absolute;
+    left: 54px;
+    top: 49px;
+    width: 40px;
+    height: 30px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+.add
+{
+    position: absolute;
+    left: 627px;
+    top: 836px;
+    width: 316px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgba(220, 57, 114, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+}

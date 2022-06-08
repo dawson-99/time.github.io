@@ -1,0 +1,104 @@
+.el-menu {
+    border-right: solid 1px #fff
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: url('../img/bk2.jpg') no-repeat;
+    background-size: cover;
+}
+
+.container .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container .back {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.container .title {
+    height: 60px;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    background: lightgreen;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.container .more {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.tac {
+    width: 250px;
+    height: 530px;
+    background: #ffffff;
+    opacity: 0.7;
+    margin: 100px 0 0 20px;
+}
+
+.anima {
+    width: 300px;
+    position: absolute;
+    right: -300px;
+    top: 80px;
+    overflow: hidden;
+    border: 1px #eee solid;
+    background: #fff;
+    animation: mymove 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.anima div {
+    height: 40px;
+    line-height: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-bottom: 2px #eee solid;
+}
+
+.anima .btn {
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 5px 0;
+}
+
+.anima .btn div {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border-right: #eee 1px solid;
+    text-align: center;
+}
+
+@keyframes mymove {
+    from {
+        right: -300px;
+    }
+
+    to {
+        right: 0;
+    }
+}
+
+.anima2 {
+    width: 300px;
+    position: absolute;
+    right: -300px;
+    overflow: hidden;
+}

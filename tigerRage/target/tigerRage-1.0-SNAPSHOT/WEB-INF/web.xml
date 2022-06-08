@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>dataBaseServlet</servlet-name>
+        <servlet-class>dataBaseServlet.dataBaseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dataBaseServlet</servlet-name>
+        <url-pattern>/dataBaseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>update</servlet-name>
+        <servlet-class>servlets.userServlet.UpdateInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>update</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlets.userServlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>servlets.userServlet.RegisterServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PersonInfoServlet</servlet-name>
+        <servlet-class>servlets.userServlet.PersonInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>PersonInfoServlet</servlet-name>
+        <url-pattern>/personInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>scheduleServlet</servlet-name>
+        <servlet-class>servlets.eventServlet.scheduleServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>scheduleServlet</servlet-name>
+        <url-pattern>/scheduleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>manageServlet</servlet-name>
+        <servlet-class>servlets.userServlet.manageServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>manageServlet</servlet-name>
+        <url-pattern>/manageServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>scheduleJumpServlet</servlet-name>
+        <servlet-class>servlets.scheduleJump</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>scheduleJumpServlet</servlet-name>
+        <url-pattern>/scheduleJumpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateInfoServlet</servlet-name>
+        <servlet-class>servlets.userServlet.UpdateInfoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateInfoServlet</servlet-name>
+        <url-pattern>/updateInfoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addEventToGroupServlet</servlet-name>
+        <servlet-class>servlets.addEventToGroupServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addEventToGroupServlet</servlet-name>
+        <url-pattern>/addEventToGroupServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>eventCompleteServlet</servlet-name>
+        <servlet-class>servlets.eventServlet.eventCompleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>eventCompleteServlet</servlet-name>
+        <url-pattern>/eventCompleteServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>eventShareJumpServlet</servlet-name>
+        <servlet-class>servlets.eventServlet.eventShareJumpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>eventShareJumpServlet</servlet-name>
+        <url-pattern>/eventShareJumpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>eventShareServlet</servlet-name>
+        <servlet-class>servlets.eventServlet.eventShareServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>eventShareServlet</servlet-name>
+        <url-pattern>/eventShareServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addFriendToGroupServlet</servlet-name>
+        <servlet-class>servlets.groupServlet.addFriendToGroupServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addFriendToGroupServlet</servlet-name>
+        <url-pattern>/addFriendToGroupServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addFriendServlet</servlet-name>
+        <servlet-class>servlets.groupServlet.addFriendServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addFriendServlet</servlet-name>
+        <url-pattern>/addFriendServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>manageJumpServlet</servlet-name>
+        <servlet-class>servlets.manageJumpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>manageJumpServlet</servlet-name>
+        <url-pattern>/manageJumpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>exitGroupServlet</servlet-name>
+        <servlet-class>servlets.groupServlet.exitGroupServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>exitGroupServlet</servlet-name>
+        <url-pattern>/exitGroupServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dissolveGroupServlet</servlet-name>
+        <servlet-class>servlets.groupServlet.dissolveGroupServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dissolveGroupServlet</servlet-name>
+        <url-pattern>/dissolveGroupServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addFriendToGroupJumpServlet</servlet-name>
+        <servlet-class>servlets.addFriendToGroupJumpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>addFriendToGroupJumpServlet</servlet-name>
+        <url-pattern>/addFriendToGroupJumpServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+

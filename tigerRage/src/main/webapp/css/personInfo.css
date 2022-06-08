@@ -1,0 +1,76 @@
+.app{
+    border: 0 ;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.return_personInfo{
+    border: 0 ;
+    font-size: 25px;
+}
+.name_text{
+    border: 0;
+    height: 70px;
+    margin-top:50px ;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align:center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.mailbox_text{
+    border: 0 ;
+    height: 70px;
+    margin-left: 18%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.sex_text{
+    border: 0 ;
+    height: 70px;
+    margin-left:9%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.mailbox_text1{
+    border: 0 ;
+    height: 70px;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.mailbox_text2{
+    border: 0;
+    height: 70px;
+    margin-left:15%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.submit{
+    border: 0 ;
+    height: 70px;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.submit input{
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgba(220, 57, 114, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 30px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+}

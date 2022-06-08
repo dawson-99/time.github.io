@@ -1,0 +1,157 @@
+.fontstyle{
+    width: 560px;
+    height: 250px;
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 150px;
+    color: blue;
+    text-align: left;
+}
+.buttom_style{
+    color: aliceblue;
+    background-color: cadetblue;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    float: right;
+    text-align: center;
+    margin-bottom:150px;
+    margin-right: 150px;
+}
+
+
+.app{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.buttom1{
+    font-size: 30px;
+}
+.tille{
+    color: rgba(239, 51, 105, 100);
+    height: 83px;
+    width: 289px;
+    margin-top:30px ;
+    margin-left:40%;
+    text-align:left;
+    font-size: 80px;
+    font-family: Arial-regular;
+    box-sizing: border-box;
+}
+.form1_1{
+    height: 70px;
+    margin-left: 18%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+.form1_2{
+    height: 70px;
+    margin-left:9%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+.form1_3{
+    height: 70px;
+    margin-left:4%;
+    margin-right: 20%;
+    text-align: center;
+    font-size: 35px;
+    box-sizing: border-box;
+}
+.from1_4{
+    height: 60px;
+    font-size: 30px;
+    float: right;
+    margin-right: 15%;
+}
+.from1_4 input{
+    background-color: rgba(220, 57, 114, 100);
+    color: aliceblue;
+}
+.app1{
+    border: 1px solid aliceblue ;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.form2_1 input{
+    border: 1px solid black;
+    width: 200px;
+    height: 70px;
+    border-radius: 25px;
+    font-size: 25px;
+    text-align: center;
+    background-color:#D9648D ;
+    position: relative ;
+    top: 30px;
+    left: 140px;
+    color: aliceblue;
+}
+.appearance{
+    border: 1px solid black;
+    width: 35%;
+    height:35% ;
+    border-radius: 30px;
+    margin-top: 35px;
+    margin-left: 0;
+    margin-bottom: 35px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 50px;
+    opacity: 0.5;
+    box-sizing: border-box;
+    color:darkturquoise ;
+    font-family: Roboto;
+}
+
+.form2_2 input{
+    border:1px solid black;
+    width: 35%;
+    height: 40%;
+    border-radius: 40px;
+    margin-left: 0;
+    margin-top: 35px;
+    margin-bottom: 0;
+    opacity: 0.5;
+    font-size: 60px;
+    text-align: center;
+    color:palevioletred;
+    font-family: Roboto;
+    box-sizing: border-box;
+
+}
+.form2_3 input{
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-top:-48%;
+    position: center;
+    width: 384px;
+    height: 95%;
+    opacity: 0.5;
+    color: darkorchid;
+    border-radius: 42px;
+    font-size: 72px;
+    text-align: center;
+    font-family: Roboto;
+}
+.form2_4 input{
+    border: 1px solid black;
+    float: right;
+    width: 400px;
+    height: 95%;
+    margin-right: 0;
+    margin-top: -48%;
+    border-radius: 40px;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 72px;
+
+}

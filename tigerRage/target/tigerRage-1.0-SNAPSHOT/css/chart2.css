@@ -1,0 +1,137 @@
+.el-menu {
+    border-right: solid 1px #fff
+}
+.el-input__inner {
+    -webkit-appearance: none;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: 1px solid #DCDFE6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    font-size: inherit;
+    height: 60px;
+    line-height: 60px;
+    outline: 0;
+    padding: 0 15px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+    border-radius: 15px;
+}
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    position: absolute;
+    right: 100px;
+    bottom: 260px;
+}
+.textContent {
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    margin: auto;
+    text-align: center;
+    background: #C990CF;
+    position: absolute;
+    bottom: 180px;
+    right: 200px;
+    border-radius: 15px;
+    font-size: 30px;
+}
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: url('../img/bk3.jpg') no-repeat;
+    background-size: cover;
+}
+.container .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.container .head .back {
+    margin: 20px;
+}
+.container .head.title {
+    height:60px;
+    line-height: 60px;
+    width: 120px;
+    text-align: center;
+    background: lightgreen;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.container .head.title2 {
+    height:60px;
+    line-height: 30px;
+    width: 120px;
+    text-align: center;
+    background: lightgreen;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.container .head .more {
+    margin: 20px;
+    cursor: pointer;
+}
+.tac {
+    width: 250px;
+    height: 530px;
+    background: #ffffff;
+    opacity: 0.7;
+    margin: 100px 0 0 20px;
+}
+.anima {
+    width:300px;
+    position:absolute;
+    right:-300px;
+    top: 80px;
+    overflow: hidden;
+    border: 1px #eee solid;
+    animation:mymove 2s;
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+    background: #fff;
+}
+.anima     div {
+    height: 40px;
+    line-height: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-bottom: 2px #eee solid;
+}
+.anima    .btn {
+    vertical-align: middle;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 5px 0;
+}
+.anima     div {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    border-right: #eee 1px solid;
+    text-align: center;
+}
+@keyframes mymove
+{
+    from {right:-300px;}
+    to {right:0;}
+}
+
+.anima2 {
+    width:300px;
+    position:absolute;
+    right:-300px;
+    overflow: hidden;
+    background: #fff;
+}

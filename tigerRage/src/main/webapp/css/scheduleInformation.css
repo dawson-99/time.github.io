@@ -1,0 +1,88 @@
+.app{
+    border: 1px ;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.list{
+    border: 1px ;
+    height: 50px;
+    margin-top:50px ;
+    margin-left:18%;
+    margin-right: 20%;
+    padding-top: 10px;
+    text-align:center;
+    font-size: 35px;
+    box-sizing: border-box;
+
+}
+.infor{
+    border: 1px ;
+    height: 50px;
+    margin-top:15px ;
+    margin-left:18%;
+    margin-right: 20%;
+    padding-left: 30px;
+    padding-top: 10px;
+    text-align:center;
+    font-size: 28px;
+    box-sizing: border-box;
+    color: darkorange;
+}
+.infor1{
+    border: 1px ;
+    height: 35px;
+    margin-top:5px;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align:center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.infor2{
+    border: 1px ;
+    height: 35px;
+    margin-top:5px ;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align:center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.form1{
+    border: 1px;
+    height: 35px;
+    margin-top:5px ;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align:center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.form1 input{
+    border: 1px solid orchid;
+    width: 60px;
+    height: 30px;
+    background-color:orchid;
+    color: lightskyblue;
+    font-size: 20px;
+}
+.form2{
+    border: 1px ;
+    height: 35px;
+    margin-top:5px ;
+    margin-left:18%;
+    margin-right: 20%;
+    text-align:center;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+.form2 input{
+    border: 1px solid orchid;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: orchid;
+    color: lightskyblue;
+}
