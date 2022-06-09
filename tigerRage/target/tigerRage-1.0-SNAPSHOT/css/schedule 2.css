@@ -1,0 +1,224 @@
+body
+{
+
+    left: 0px;
+    top: 0px;
+    width: 100%;/*1440px;*/
+    height: 100%;/*1024px;*/
+    background-image: url("../img/bk2.jpg");
+    background-size: cover;
+}
+.return
+{
+    position: absolute;
+    left: 43px;
+    top: 40px;
+    width: 40px;
+    height: 30px;
+    color: black; /*rgba(255, 255, 255, 100)*/
+    font-size: 20px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+.eventList
+{
+    border: 1px;
+    position: absolute;
+    border:  #F0CFCF;
+    left: 0px;
+    top: 206px;
+    width: 256px;
+    height: 842px;
+}
+.date_text
+{
+    position: absolute;
+    left: 359px;
+    top: 164px;
+    width: 157px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+.year
+{
+    position: absolute;
+    left: 570px;
+    top: 164px;
+    width: 145px;
+    height: 53px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.year_text
+{
+    font-weight: bold;
+    position: absolute;
+    left: 741px;
+    top: 164px;
+    width: 39px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+
+}
+.month
+{
+    position: absolute;
+    left: 804px;
+    top: 164px;
+    width: 112px;
+    height: 53px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.month_text
+{
+    font-weight: bold;
+    position: absolute;
+    left: 943px;
+    top: 164px;
+    width: 39px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+.day
+{
+    position: absolute;
+    left: 1009px;
+    top: 164px;
+    width: 58px;
+    height: 53px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.day_text
+{
+    font-weight: bold;
+    position: absolute;
+    left: 1086px;
+    top: 164px;
+    width: 39px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+.toDay_tomorrow_text
+{
+    position: absolute;
+    left: 605px;
+    top: 231px;
+    width: 311px;
+    height: 37px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: HarmonyOS_Sans_SC-regular;
+}
+.event_text
+{
+    font-weight: bold;
+    position: absolute;
+    left: 359px;
+    top: 276px;
+    width: 157px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+.event
+{
+    resize: none;
+    position: absolute;
+    left: 570px;
+    top: 334px;
+    width: 412px;
+    height: 190px;
+    line-height: 41px;
+    border-radius: 20px;
+    color: rgba(136, 136, 136, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.specialEvent_text
+{
+    font-weight: bold;
+    position: absolute;
+    left: 437px;
+    top: 572px;
+    width: 668px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+.remindDays
+{
+    position: absolute;
+    left: 690px;
+    top: 627px;
+    width: 47px;
+    height: 37px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.remindDays_text
+{
+    position: absolute;
+    left: 737px;
+    top: 625px;
+    width: 112px;
+    height: 37px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: HarmonyOS_Sans_SC-regular;
+}
+.timeLimit
+{
+    position: absolute;
+    left: 482px;
+    top: 687px;
+    width: 604px;
+    height: 43px;
+    border-radius: 20px 20px 20px 20px;
+    color: rgba(136, 136, 136, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.creatEvent
+{
+    border: none;
+    position: absolute;
+    left: 627px;
+    top: 836px;
+    width: 316px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgba(220, 57, 114, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+}

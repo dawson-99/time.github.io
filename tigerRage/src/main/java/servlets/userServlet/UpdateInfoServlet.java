@@ -18,7 +18,7 @@ public class UpdateInfoServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-            String nickName = req.getParameter("nickName");
+        String nickName = req.getParameter("nickName");
         String password = req.getParameter("password");
         String sex = req.getParameter("sex");
         String tel = req.getParameter("tel");
@@ -38,12 +38,12 @@ public class UpdateInfoServlet extends HttpServlet {
         if(sex.equals("")) {
             user.setSex(user.getSex());
         } else {
-            user.setNickName(sex);
+            user.setSex(sex);
         }
         if (tel.equals("")) {
             user.setTel(user.getTel());
         } else {
-            user.setNickName(tel);
+            user.setTel(tel);
         }
         if(text.equals("")) {
             user.setText(user.getText());

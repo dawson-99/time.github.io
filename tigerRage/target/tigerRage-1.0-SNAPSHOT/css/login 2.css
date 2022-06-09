@@ -1,0 +1,125 @@
+
+body
+{
+
+    left: 0px;
+    top: 0px;
+    width: 100%;/*1440px;*/
+    height: 100%;/*1024px;*/
+    background-image: url("../img/bk3.jpg");
+    background-size: cover;
+}
+
+.loginButton
+{
+    border: none;
+    position: absolute;
+    left: 562px;
+    top: 655px;
+    width: 316px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgba(220, 57, 114, 100);
+    color: rgba(255, 255, 255, 100);
+    font-size: 36px;
+    text-align: center;
+    font-family: Microsoft Yahei;
+}
+.zhanghaoText
+{
+    font-weight: bold;
+    position: absolute;
+    left: 377px;
+    top: 382px;
+    width: 157px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+.mimaText
+{
+    font-weight: bold;
+    position: absolute;
+    left: 377px;
+    top: 491px;
+    width: 157px;
+    height: 53px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 36px;
+    text-align: right;
+    font-family: HarmonyOS_Sans_SC-bold;
+}
+
+.login2
+{
+    position: absolute;
+    left: 534px;
+    top: 482px;
+    width: 494px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: left;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.checkStyle
+{
+    position: absolute;
+    left: 600px;
+    top: 569px;
+    width: 241px;
+    height: 54px;
+}
+
+#checkbox
+{
+    width:25px;
+    height: 25px;
+}
+#checkbox::after
+{
+    color:white;
+    background-color: black;
+}
+.login1
+{
+    position: absolute;
+    left: 534px;
+    top: 373px;
+    width: 494px;
+    height: 70px;
+
+    border-radius: 20px 20px 20px 20px;
+    color: rgba(136, 136, 136, 100);
+    font-size: 36px;
+    text-align: left;
+    font-family: Roboto;
+    border: 1px solid rgba(187, 187, 187, 100);
+}
+.text1
+{
+    position: absolute;
+    left: 580px;
+    top: 869px;
+    width: 280px;
+    height: 41px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: SourceHanSansSC-regular;
+}
+.text2
+{
+    position: absolute;
+    left: 534px;
+    top: 927px;
+    width: 420px;
+    height: 37px;
+    color: rgba(16, 16, 16, 100);
+    font-size: 28px;
+    text-align: left;
+    font-family: HarmonyOS_Sans_SC-regular;
+}
+
+

@@ -38,8 +38,8 @@
         <p class="mailbox_text">密码: <input type="password" name="password"><br></p>
         <p class="sex_text">性别:<input type="radio" name="sex"  checked="checked" style="width: 35px;height: 35px;color: #333333; " value="male">男
             <input type="radio" name="sex" style="width: 35px;height: 35px;color: #333333" value="female">女<br> </p>
-        <p class="mailbox_text1"> 电话:<input type="text" name="tel" value =" <%user.getTel();%>"><br></p>
-        <p class="mailbox_text2"> 个人描述: <input type="text" name="text" value = "<%user.getText();%>"> <br></p>
+        <p class="mailbox_text1"> 电话:<input type="text" name="tel" value =" <%=user.getTel()%>"><br></p>
+        <p class="mailbox_text2"> 个人描述: <input type="text" name="text" value = "<%=user.getText()%>"> <br></p>
        <p class="submit"> <input type="submit" value="保存" class="save"></p>
    </form>
 </div>
